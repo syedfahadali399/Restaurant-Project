@@ -1,4 +1,4 @@
-.nav{
+/* .nav{
     word-spacing: 40px;
     text-align: end;
     cursor: pointer;
@@ -21,7 +21,7 @@
 .menu-btn1{
     padding-right: 1480px;
     word-spacing: 2px;
-}
+} */
 
 .img{
     display: flex;
@@ -31,12 +31,53 @@
     justify-content: center;
 }
 
+.img-1{
+    border-radius: 24px;
+}
+
 @media screen and (max-width: 768px) {
     .img{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
+
+@media screen and (max-width: 1280px) {
+    .img-1{
+        width: 500px;
+        height: 325px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .img-1{
+        width: 425px;
+        height: 305px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .img-1{
+        width: 375px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    .img-1{
+        width: 325px;
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .img-1{
+        width: 275px;
+        height: 170px;
+    }
+}
+
 
 .first{
     text-align: center;
@@ -82,6 +123,42 @@
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 100px;
+}
+
+@media screen and (max-width: 480px) {
+    .dinner{
+        padding-bottom: 54px;
+    }
+    .dinner img{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .dinner{
+        padding-bottom: 48px;
+    }
+    .dinner img{
+        width: 325px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .dinner{
+        padding-bottom: 36px;
+    }
+    .dinner img{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .dinner{
+        padding-bottom: 36px;
+    }
+    .dinner img{
+        width: 275px;
+    }
 }
 
 .p5{
