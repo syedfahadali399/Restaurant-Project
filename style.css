@@ -1,0 +1,99 @@
+.nav{
+    word-spacing: 40px;
+    text-align: end;
+    cursor: pointer;
+    position: sticky;
+    top: -1px;
+    background-color: rgb(112, 112, 112);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    margin-left: -10px;
+    margin-top: -11px;
+    padding-right: 10px;
+}
+
+.menu-btn:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.menu-btn1{
+    padding-right: 1480px;
+    word-spacing: 2px;
+}
+
+.img{
+    padding-left: 327px;
+    box-sizing: inherit;
+}
+
+.first{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hh{
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.p2{
+    text-align: center;
+    color: black;
+}
+
+.p3{
+    text-align: center;
+    color: gray;
+}
+
+.fourth{
+    letter-spacing: 5px;
+    padding-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.p4{
+    padding-left: 12px;
+    font-weight: 600;
+    color: grey;
+    text-align: center;
+}
+
+.dinner{
+    padding-left: 750px;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.p5{
+    color: blue;
+    font-weight: 700;
+}
+
+.button{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(12, 89, 165);
+    border-radius: 2px solid rgb(184, 7, 7);
+    font-size: 15px;
+}
+
+.p6{
+    color: white;
+    background-color: gray;
+    padding-top: 55px;
+    padding-bottom: 70px;
+    text-align: center;
+    margin-left: -11px;
+    margin-right: -11px;
+    margin-bottom: -11px;
+    cursor: pointer;
+}
