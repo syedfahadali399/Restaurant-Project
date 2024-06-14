@@ -24,8 +24,18 @@
 }
 
 .img{
-    padding-left: 327px;
-    box-sizing: inherit;
+    display: flex;
+    flex-direction: row;
+    row-gap: 25px;
+    gap: 50px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .img{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .first{
@@ -68,7 +78,8 @@
 }
 
 .dinner{
-    padding-left: 750px;
+    display: flex;
+    justify-content: center;
     padding-top: 25px;
     padding-bottom: 100px;
 }
